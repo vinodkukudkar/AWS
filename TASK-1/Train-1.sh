@@ -63,7 +63,7 @@ width:100px;
 
 <h1>Train Booking Service</h1>
 
-<h2>🚆 Welcome to Train Server 1</h2>
+<h2>  Welcome to Train Server 1</h2>
 
 <p>This response is coming from <b>Train EC2 Instance 1</b></p>
 
