@@ -506,3 +506,29 @@
 
 10. click on Add rule
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/dde62d4f-4958-40ed-b9c8-14a93003e6bc" />
+
+
+# Running website 
+1. copy Dns Load Balancer
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a426c88e-4883-49e0-b66b-558dcded78ff" />
+2. Paste On Browser
+<img width="1919" height="1076" alt="image" src="https://github.com/user-attachments/assets/7257f755-2648-4f6e-8a19-b138645c8e97" />
+3. click on Train Booking
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e672958e-5213-46d3-bd25-934be1a2a5bb" />
+4. click on Refresh Button
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f16a1aba-dccd-4b50-8a52-fcacfe47f904" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b4381bdb-70bf-4580-a77a-53bd143fce14" />
+
+
+1. click on Bus Booking
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/86ff79aa-61ea-46ac-94b2-b379a3c56bb9" />
+2. click on Refresh Button
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/196fd529-032c-4d7c-8f7c-85d2d004c930" />
+<img width="1919" height="1023" alt="image" src="https://github.com/user-attachments/assets/4b440745-9775-42f5-95cc-ba33fefa0725" />
+
+1. click on Flight Booking
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c7310bdd-c6c4-4fd0-8d91-047d6b4e73f0" />
+2. click on Refresh Button
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d88bcc5a-e04e-42ea-81d2-67e45737d5f4" />
+<img width="1917" height="1024" alt="image" src="https://github.com/user-attachments/assets/99be51c9-58b0-4507-b049-5e5270d1311c" />
+
