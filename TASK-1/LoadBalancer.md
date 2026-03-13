@@ -217,3 +217,98 @@
 7. click on Save Rule
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c07c0793-404a-4404-a1bc-bd3cb47ce43e" />
 
+## Conect Ec2 Train-1
+1. first login BastionHost
+2. create Pem file `vi MumbaiKey.pem`
+3. give permission : `chmod 400 MumbaiKey.pem`
+4. connect to Train-1 enstance : `ssh -i "MumbaiKey.pem" ubuntu@10.0.3.100`
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a23d304d-07af-4e62-98c6-1a3cc89acd93" />
+
+5. create file `vi Train-1.sh`
+6. Paste the shall sript `wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww`
+7. Give permission : ` chmood 777 Train-1.sh`
+8. Run The Sripts : `./Train-1.sh`
+<img width="1915" height="1079" alt="image" src="https://github.com/user-attachments/assets/6aaf564e-b6ef-4ff0-bb19-d722fb664557" />
+
+## Conect Ec2 Bus-1
+1. first login BastionHost
+2. Connect to Bus-1 Enstance : `ssh -i "MumbaiKey.pem" ubuntu@10.0.3.101`
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/3127e53f-528e-4d98-ac42-36dadd9dc4c4" />
+
+3. create file `vi Bus-1.sh`
+4. Paste the shall sript `wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww`
+5. Give permission : ` chmood 777 Bus-1.sh`
+6. Run The Sripts : `./Bus-1.sh`
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d61def16-0fdc-477f-b688-bb3248cb8b41" />
+
+## Conect Ec2 Flight-1
+1. first login BastionHost
+2. Connect to Flight-1 Enstance : `ssh -i "MumbaiKey.pem" ubuntu@10.0.3.101`
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/05b72244-d442-48bd-8978-f826b994afd5" />
+
+3. create file `vi Flight-1.sh`
+4. Paste the shall sript `wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww`
+5. Give permission : ` chmood 777 Flight-1.sh`
+6. Run The Sripts : `./Flight-1.sh`
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8bde4f0b-93de-4782-aa34-061eabfc0fc8" />
+
+# Create EC2 Backent on Private Subnet 2
+`Train-2`
+`Bus-2`
+`Flight-2`
+1. click On Instance
+2. click on Launch Instance
+<img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/652ba565-59bd-4ad7-97f9-0b5903c447b7" />
+
+3. name : *Train-2*
+4. select Application and OS Images (Amazon Machine Image) : *Ubuntu*
+5. Number of instances : `3`
+<img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/12c95f59-60ef-4797-a7c4-5daa0e17913c" />
+
+6. Instance type : *t3micro*
+7. key pair : *MumbaiKey*
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/6007a70a-52c5-492b-a67e-b5c041b08d14" />
+
+8. Network setting : *Edit*
+      1. VPC Choice : *Project-VPC*
+      2. Subnet choice : *Private-Sub-2*
+      3. Auto-assign public IP : *Disable*
+      4. Select existing security group : *Private-Security-Group*
+      5. click on Lonch Enstance
+       <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/798a4e00-9366-49c7-9a3e-d9bcba77c6c4" />
+
+9. Reaname the Instance Name `Train-2` `Bus-2` `Flight-2`
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/aad6270d-bffe-4161-9bc1-829f3769fa68" />
+
+## Conect Ec2 Train-2
+1. first login BastionHost
+2. Connect to Train-2 Enstance : `ssh -i "MumbaiKey.pem" ubuntu@10.0.3.101`
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/97a82e63-4bf8-4787-9550-aa4b872adb35" />
+
+3. create file `vi Train-2.sh`
+4. Paste the shall sript `wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww`
+5. Give permission : ` chmood 777 Train-2.sh`
+6. Run The Sripts : `./Train-2.sh`
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/2871af02-c51e-4fe5-ba5b-d71ecdcf05e6" />
+
+## Conect Ec2 Bus-2
+1. first login BastionHost
+2. Connect to Bus-2 Enstance : `ssh -i "MumbaiKey.pem" ubuntu@10.0.3.101`
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b7f1d745-f444-4cd4-be6c-11cf742cddd9" />
+
+3. create file `vi Bus-2.sh`
+4. Paste the shall sript `wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww`
+5. Give permission : ` chmood 777 Bus-2.sh`
+6. Run The Sripts : `./Bus-2.sh`
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/22ff88d5-458c-4944-88e4-ae34df6729af" />
+
+## Conect Ec2 Flight-2
+1. first login BastionHost
+2. Connect to Flight-2 Enstance : `ssh -i "MumbaiKey.pem" ubuntu@10.0.3.101`
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/df6af4d5-a6e5-498a-99ba-eb382ef2870d" />
+
+3. create file `vi Flight-2.sh`
+4. Paste the shall sript `wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww`
+5. Give permission : ` chmood 777 Flight-1.sh`
+6. Run The Sripts : `./Flight-2.sh`
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/438e1862-664b-4026-8bf1-62d279b4004f" />
