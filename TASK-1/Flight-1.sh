@@ -63,7 +63,7 @@ width:100px;
 
 <h1>Flight Booking Service</h1>
 
-<h2>✈️ Welcome to Flight Server 1</h2>
+<h2>  Welcome to Flight Server 1</h2>
 
 <p>This response is coming from <b>Flight EC2 Instance 1</b></p>
 
