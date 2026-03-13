@@ -225,7 +225,7 @@
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a23d304d-07af-4e62-98c6-1a3cc89acd93" />
 
 5. create file `vi Train-1.sh`
-6. Paste the shall sript `wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww`
+6. Paste the shall sript : Here the Link `https://github.com/PRATHAMKUKUDKAR/AWS/blob/main/TASKS/TASK-1/Scripts/Train/Train-1.sh`
 7. Give permission : ` chmood 777 Train-1.sh`
 8. Run The Sripts : `./Train-1.sh`
 <img width="1915" height="1079" alt="image" src="https://github.com/user-attachments/assets/6aaf564e-b6ef-4ff0-bb19-d722fb664557" />
@@ -236,7 +236,7 @@
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/3127e53f-528e-4d98-ac42-36dadd9dc4c4" />
 
 3. create file `vi Bus-1.sh`
-4. Paste the shall sript `wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww`
+4. Paste the shall sript Here the link `https://github.com/PRATHAMKUKUDKAR/AWS/blob/main/TASKS/TASK-1/Scripts/Bus/Bus-1.sh`
 5. Give permission : ` chmood 777 Bus-1.sh`
 6. Run The Sripts : `./Bus-1.sh`
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d61def16-0fdc-477f-b688-bb3248cb8b41" />
@@ -247,7 +247,7 @@
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/05b72244-d442-48bd-8978-f826b994afd5" />
 
 3. create file `vi Flight-1.sh`
-4. Paste the shall sript `wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww`
+4. Paste the shall sript here the link `https://github.com/PRATHAMKUKUDKAR/AWS/blob/main/TASKS/TASK-1/Scripts/Flight/Flight-1.sh`
 5. Give permission : ` chmood 777 Flight-1.sh`
 6. Run The Sripts : `./Flight-1.sh`
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8bde4f0b-93de-4782-aa34-061eabfc0fc8" />
@@ -286,7 +286,7 @@
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/97a82e63-4bf8-4787-9550-aa4b872adb35" />
 
 3. create file `vi Train-2.sh`
-4. Paste the shall sript `wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww`
+4. Paste the shall sript Here the link : `https://github.com/PRATHAMKUKUDKAR/AWS/blob/main/TASKS/TASK-1/Scripts/Train/Train-2.sh`
 5. Give permission : ` chmood 777 Train-2.sh`
 6. Run The Sripts : `./Train-2.sh`
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/2871af02-c51e-4fe5-ba5b-d71ecdcf05e6" />
@@ -297,7 +297,7 @@
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b7f1d745-f444-4cd4-be6c-11cf742cddd9" />
 
 3. create file `vi Bus-2.sh`
-4. Paste the shall sript `wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww`
+4. Paste the shall sript Here the link : `https://github.com/PRATHAMKUKUDKAR/AWS/blob/main/TASKS/TASK-1/Scripts/Bus/Bus-2.sh`
 5. Give permission : ` chmood 777 Bus-2.sh`
 6. Run The Sripts : `./Bus-2.sh`
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/22ff88d5-458c-4944-88e4-ae34df6729af" />
@@ -308,7 +308,7 @@
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/df6af4d5-a6e5-498a-99ba-eb382ef2870d" />
 
 3. create file `vi Flight-2.sh`
-4. Paste the shall sript `wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww`
+4. Paste the shall sript here the link `https://github.com/PRATHAMKUKUDKAR/AWS/blob/main/TASKS/TASK-1/Scripts/Flight/Flight-2.sh`
 5. Give permission : ` chmood 777 Flight-1.sh`
 6. Run The Sripts : `./Flight-2.sh`
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/438e1862-664b-4026-8bf1-62d279b4004f" />
