@@ -154,4 +154,66 @@
       5. click on Lonch Enstance
       <img width="1919" height="1075" alt="image" src="https://github.com/user-attachments/assets/f7a2b8b8-7336-4909-9674-b8b949c529b0" />
 
+## Security Group
+1. select Bation FrontEnd enstance
+2. click on sucurity Tab
+3. click on security Group Id
+<img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/a99a7b07-477d-442f-acf6-32be7ab86ab9" />
+3. click on Edit Enbound Rule
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/61fdad35-3322-408b-8fc4-6fe4d3ee8e00" />
+4. click on Add Rule
+5. type : *All Trafic*
+6. cource : *Anywhere*
+7. click on Save Rule
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/3c8a7b67-f808-4d3e-b9d2-19d8e476dadb" />
+
+
+## Conect Basion/Frondend Ec2
+1. Swich to root user : `sudo su - `
+2. create file `vi FrontEnd.sh`
+3. Paste the shall sript `wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww`
+4. Give permission : ` chmood 777 FrontEnd.sh`
+5. Run The Sripts : `./FrontEnd.sh`
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/48ef5848-1caa-4cb0-9cc7-dc525c229774" />
+
+# Create EC2 Backent on Private Subnet 1
+`Train-1`
+`Bus-1`
+`Flight-1`
+1. click On Instance
+2. click on Launch Instance
+<img width="1907" height="1076" alt="image" src="https://github.com/user-attachments/assets/edf468d9-7c1d-4b80-856f-e084d0330c04" />
+3. name : *Train-1*
+4. select Application and OS Images (Amazon Machine Image) : *Ubuntu*
+5. Number of instances : `3`
+<img width="1919" height="1073" alt="image" src="https://github.com/user-attachments/assets/382f5ce9-31e1-472b-b9a5-9376997608d1" />
+
+6. Instance type : *t3micro*
+7. key pair : *MumbaiKey*
+<img width="1919" height="1073" alt="image" src="https://github.com/user-attachments/assets/faee3d55-6f28-4acc-9926-e73cca66088b" />
+
+8. Network setting : *Edit*
+      1. VPC Choice : *Project-VPC*
+      2. Subnet choice : *Private-Sub-1*
+      3. Auto-assign public IP : *Disable*
+      4. Security Group Name : *Private-Security-Group*
+      5. click on Lonch Enstance
+   <img width="1919" height="1073" alt="image" src="https://github.com/user-attachments/assets/dcd13ca4-7ede-4ebd-9d3b-6017471a483c" />
+9. Reaname the Instance Name `Train-1` `Bus-1` `Flight-1`
+<img width="1919" height="1076" alt="image" src="https://github.com/user-attachments/assets/bd923e6d-5520-4e97-9acc-266cdeec367f" />
+
+## Security Group
+1. select Train-1 enstance
+2. click on sucurity Tab
+3. click on security Group Id
+<img width="1919" height="1076" alt="image" src="https://github.com/user-attachments/assets/4292781a-014c-4eb4-8924-2ad97f5147aa" />
+
+3. click on Edit Enbound Rule
+<img width="1919" height="1074" alt="image" src="https://github.com/user-attachments/assets/30ee3bf0-d89e-4d50-9871-4fddc7655a67" />
+
+4. click on Add Rule
+5. type : *All Trafic*
+6. cource : *Anywhere*
+7. click on Save Rule
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c07c0793-404a-4404-a1bc-bd3cb47ce43e" />
 
