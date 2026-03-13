@@ -171,7 +171,7 @@
 ## Conect Basion/Frondend Ec2
 1. Swich to root user : `sudo su - `
 2. create file `vi FrontEnd.sh`
-3. Paste the shall sript `wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww`
+3. Paste the shall sript Here the link `https://github.com/PRATHAMKUKUDKAR/AWS/blob/main/TASKS/TASK-1/Scripts/FrontEnd/FrontEnd.sh`
 4. Give permission : ` chmood 777 FrontEnd.sh`
 5. Run The Sripts : `./FrontEnd.sh`
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/48ef5848-1caa-4cb0-9cc7-dc525c229774" />
