@@ -312,3 +312,197 @@
 5. Give permission : ` chmood 777 Flight-1.sh`
 6. Run The Sripts : `./Flight-2.sh`
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/438e1862-664b-4026-8bf1-62d279b4004f" />
+
+
+# Create Target Group 
+## FrontEnd TG
+1. click on Target Group
+2. click Create Target Group
+3. Setting:
+   1. Target type : *Instance*
+   2. Target group name : *FrontEnd-TG*
+   3. Protocol : *HTTP*
+   <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/717263c7-dd7c-4c52-8cd8-5e3883ec67f0" />
+   4. Selecct Vpc : *Project-VPC*
+   <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/7de21c5a-cac9-4925-9f7c-e53250aa15b5" />
+   5. click on Next
+   <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/3d6196f1-1b54-4203-a868-0365bfdb453a" />
+
+1. Select Enstance : `Bastion/FrontEnd`
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a1b95042-9177-4d9a-9bfc-8dd71af13b96" />
+2. click Include As pending Below
+3. click Next
+<img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/096fb088-95ec-4237-9194-be8a14304f38" />
+4. Clock on Create Target Group
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/afea3ceb-11be-4d48-9bfa-24561898c49f" />
+
+
+
+## Train-TG
+2. click Create Target Group
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ec462fc7-ea82-49e9-9a4b-91c2ada38604" />
+
+4. Setting:
+   1. Target type : *Instance*
+   2. Target group name : *Train-TG*
+   3. Protocol : *HTTP*
+<img width="1919" height="1071" alt="image" src="https://github.com/user-attachments/assets/238fe9a7-1845-438d-ab81-9bb373fd2fd2" />
+  
+   4. Selecct Vpc : *Project-VPC*
+   <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/7de21c5a-cac9-4925-9f7c-e53250aa15b5" />
+   5. click on Next
+   <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/3d6196f1-1b54-4203-a868-0365bfdb453a" />
+
+1. Select Enstance : `Train-1` `Train-2`
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d732128e-3b6b-450e-9c70-2fdfe898af96" />
+
+2. click Include As pending Below
+3. click Next
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/974f54c9-c864-45e7-a3bd-083f223d9bbd" />
+
+4. Clock on Create Target Group
+<img width="1919" height="1075" alt="image" src="https://github.com/user-attachments/assets/636a158b-54ab-42dd-b54a-ef4703907e9a" />
+
+
+## Bus-TG
+2. click Create Target Group
+<img width="1919" height="1074" alt="image" src="https://github.com/user-attachments/assets/2e0e6192-b4f1-491a-88bc-26b56cf38eb9" />
+
+3. Setting:
+   1. Target type : *Instance*
+   2. Target group name : *Bus-TG*
+   3. Protocol : *HTTP*
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d95b8db9-12d4-411b-be3e-07f3aad9dc9e" />
+
+   4. Selecct Vpc : *Project-VPC*
+ <img width="1919" height="1075" alt="image" src="https://github.com/user-attachments/assets/46f3f0e8-5d97-4212-806e-3dcdd6412e69" />
+
+   5. click on Next
+   <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ec2afac6-2592-4e2f-806f-19c5307d1673" />
+
+1. Select Enstance : `Bus-1` `Bus-2`
+<img width="1919" height="1073" alt="image" src="https://github.com/user-attachments/assets/ae370a21-b53e-4cd9-b3c0-95a75fea3bd5" />
+
+2. click Include As pending Below
+3. click Next
+<img width="1919" height="1074" alt="image" src="https://github.com/user-attachments/assets/3fd837e3-ac6d-45e1-9736-b4618810a2c8" />
+
+4. Clock on Create Target Group
+<img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/8e870ff2-a4f8-412b-980b-241d19e278a1" />
+
+
+## Flight-TG
+2. click Create Target Group
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/16e3953f-966d-46e1-9fff-8f9c067c9316" />
+
+3. Setting:
+   1. Target type : *Instance*
+   2. Target group name : *Flight-TG*
+   3. Protocol : *HTTP*
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/6ef9bfab-b105-4a6e-a3f4-28174cd0ca35" />
+
+   4. Selecct Vpc : *Project-VPC*
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8ddf3f12-dab6-47fb-9344-4dd735207acc" />
+
+   5. click on Next
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d415916f-f3d6-4ed7-91c8-5e8ec458f483" />
+
+1. Select Enstance : `Flight-1` `Flight-2`
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/7c5d0a3f-fb6e-41eb-a7e1-a6ba008c21f1" />
+
+2. click Include As pending Below
+3. click Next
+<img width="1919" height="1076" alt="image" src="https://github.com/user-attachments/assets/f25dee70-c805-466a-9cde-38559d64510f" />
+
+4. Clock on Create Target Group
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b832d4f7-769f-4b5a-9ba0-26cf05bcb9e1" />
+
+
+
+
+# Create Load Balancer
+1. click on Load BAlancer
+2. click on Create LadBalance
+<img width="1919" height="1075" alt="image" src="https://github.com/user-attachments/assets/fc8bd5c4-ef3c-4d87-be55-0839abb44367" />
+3. Choice Aplication Load Balancer
+4. click on Create
+<img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/01899c68-4fa4-456f-946e-4b2c787b9874" />
+5. Basic configuration
+   1. Load balancer name : *Project-LB*
+   2. Scheme : *Internet-facing*
+   <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d1fb9743-29f8-4c81-9cc1-b17b972259d8" />
+
+6. Network mapping
+   1. Select Vpc : *Project-VPC
+   2. select Avability Zone And Subnet : (1) *ap-south-1a * *Public-Sub-1* (2) *ap-south-1b * *Public-Sub-2*
+<img width="1888" height="1067" alt="image" src="https://github.com/user-attachments/assets/f71e5be3-357b-4b50-a4a2-1043dc48013a" />
+
+7. Listeners and routing
+   1. Routing action : *Forward to target groups*
+   2. Select Target group : *FrontEnd* 
+
+8. Click On Create LOad Balancer
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c8667116-8bbc-418e-9a63-245d872c30e5" />
+
+9. click on Add Lisner
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/40244ddd-79a1-4928-8feb-45e7cb68ac4c" />
+
+## Create Lisners And Rule
+## Train-TG
+1. Click On LIsners And Rules
+2. click On HTTP:80
+3. click on managerule
+4. click on Add Rule
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/3dd9020a-cffa-4eb7-962d-513eae5a2da0" />
+5. click on Codition
+6. choice Path
+7. Path condition value : */train* *
+<img width="1887" height="1077" alt="image" src="https://github.com/user-attachments/assets/a58b810c-3020-4427-9f5c-7a422576e85a" />
+8. Routing action : *Forward to target groups*
+9. Select Target group : *Train-TG*
+10. click on Next
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8ed17229-0e70-4c90-8519-477bcbd0fe83" />
+
+11. Type Priority : *1*
+12. click on Next
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b6caf2ad-3312-4d49-915a-ddcda60ca291" />
+13. click on Add rule
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c1e4e1c3-2e2f-478a-9731-87262bbf71bf" />
+
+## Bus-TG
+1. click on Add Rule
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/eacf0de4-726c-41c8-b679-cd7dc4a79c06" />
+2. click on Codition
+3. choice Path
+4. Path condition value : */bus* *
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/3aed3b02-ada2-4cfa-a8db-a8b555c4fe16" />
+5. Routing action : *Forward to target groups*
+6. Select Target group : *Bus-TG*
+7. click on Next
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/6d8fe5e6-9e92-4a40-98e1-944628c94068" />
+8. Type Priority : *2*
+9. click on Next
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d178bdca-b7d6-43d9-b1bb-569fff83072b" />
+10. click on Add rule
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/60a431eb-b4eb-4fb2-8bb3-d4476915528d" />
+
+
+## Flight-TG
+1. click on Add Rule
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f950f102-6225-4c0e-8eca-447976b01f93" />
+2. click on Codition
+3. choice Path
+4. Path condition value : */flight* *
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/9eeb3507-94aa-4c81-8ce6-0766edaa4534" />
+5. Routing action : *Forward to target groups*
+6. Select Target group : *Flight-TG*
+7. click on Next
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ebff26b2-c3fe-4ede-b8e3-53accf544520" />
+
+8. Type Priority : *3*
+9. click on Next
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/0e15e9a3-3c5e-49d8-aac5-7cebd8f92b43" />
+
+10. click on Add rule
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/dde62d4f-4958-40ed-b9c8-14a93003e6bc" />
