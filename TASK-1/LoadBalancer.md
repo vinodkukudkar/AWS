@@ -74,7 +74,6 @@
 8. click on Create NAt Gateway
 <img width="1919" height="1075" alt="image" src="https://github.com/user-attachments/assets/07075cc9-2a6d-4264-bd14-d54ce9cfb8ff" />
 
-
 # create Route Table 
 ## Public Route Table
 1. we can create vpc so atomaticaly 1 route table is created
