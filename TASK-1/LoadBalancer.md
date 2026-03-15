@@ -72,6 +72,7 @@
 6. select VPC *Project-VPC*
 7. Method of Elastic IP (EIP) allocation *Atomaticaly*
 8. click on Create NAt Gateway
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/ee8ade70-4752-4694-9627-4f6baf25abc3" />
 <img width="1919" height="1075" alt="image" src="https://github.com/user-attachments/assets/07075cc9-2a6d-4264-bd14-d54ce9cfb8ff" />
 
 # create Route Table 
